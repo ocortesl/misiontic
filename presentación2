@@ -1,0 +1,8 @@
+#Programa en python para realizar presentación
+nombre = input("Digite su nombre: ")
+apellido = input("Digite su apellido: ")
+edad = int(input(f"Ahora {nombre}Digite su edad: "))
+print("Nombre: ", nombre , "\nApellido : ", apellido)
+print ("su edad es", edad, "años")
+c = edad + 5
+print (f"{nombre} usted tendra {c} en 5 años")
