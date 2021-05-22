@@ -1,0 +1,5 @@
+#Presentación en python
+nombre = "Pedro Paramo"
+edad = 46 
+ciudad = "Bogotá"
+print (f'Mi nombre es: {nombre}\nmi edad es: {edad} años\nvivo en {ciudad}')
