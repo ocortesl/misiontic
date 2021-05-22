@@ -1,0 +1,13 @@
+#Programa escrito en python
+#variables
+numero = int(input("Escbriba el límite Fibonnaci:  "))
+a = 0
+b = 1
+c = 1
+#ciclo while
+while c < numero:
+	print (c)
+	c = a + b
+	a = b
+	b = c
+	
