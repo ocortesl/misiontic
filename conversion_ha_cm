@@ -1,0 +1,7 @@
+# La fórmula para convertir hectáreas (ha) en (cm)= cm^2 = ha/0.000000010000
+resultado = int(input("Digite el área en héctareas: "))
+ha = 1
+cm = 0.000000010000
+resultado = ha/cm    
+#print ("{resultado} cms cuadrados")
+print('El área es: {:,.2f} cms^2'.format(resultado))
