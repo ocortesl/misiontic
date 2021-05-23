@@ -1,0 +1,9 @@
+# Dados dos números decir cuál es mayor, o si ambos son iguales.
+a = int(input("No. 1: "))
+b = int(input("No. 2: "))
+if a < b:
+    print( a,"<",b)
+elif a > b:
+    print( a,">",b)
+else:
+    print( a,"=",b)
