@@ -1,0 +1,4 @@
+#2 crear dos variables numéricas y sumarlas
+a = int(input("No. 1: "))
+b = int(input("No. 2: "))
+print ("resultado = ",a+b)
