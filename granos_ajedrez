@@ -1,0 +1,7 @@
+# Calcular cuantos granos de arroz tendríamos que utilizar si por cada casilla de un tablero de ajedrez pusiéramos un grano en la primera casilla,dos en la segunda, cuatro en la tercera, y así doblando hasta la última. (tablero tiene 64 cuadros)
+c = 1
+contador = 0
+while contador < 64:
+    contador+=1
+    print(('Los granos de arroz necesarios son: {:,.2f}'.format(c)))
+    c = c+c
