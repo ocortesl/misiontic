@@ -1,0 +1,5 @@
+#4 Generar un número aleatorio
+import	random
+random.seed()
+a = random.randrange(0,1001)
+print(a)
