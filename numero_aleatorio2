@@ -1,0 +1,14 @@
+#6 Generar un número aleatorio entre 1 y 120. 
+# Decir si se encuentra en el intervalo entre 10 y 50, o bien si es mayor de 50 hasta 100, o bien si es mayor de 100, o bien si es menor de 10.
+
+import random
+c = random.randrange(0,121)
+print ("Número= ", c)
+if c < 10:
+    print (f"{c} <10")
+elif c < 50:
+    print (f"{c} >10 & <50")
+elif c < 100:
+    print (f"{c} >50 & <120")
+else:
+    print(">100", c)
