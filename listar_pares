@@ -1,0 +1,16 @@
+#7 Listar los números pares del 10 al 20.
+#lista
+x=list(range(10,22))
+print (x[0:22:2])
+#-----
+#for
+for i in range(10,22,2):
+    print (i)
+#-----
+#while
+x=10
+while x<18:
+    x+=1
+    if x%2==0:
+        print(x)
+    break
